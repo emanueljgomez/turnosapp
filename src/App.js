@@ -4,7 +4,25 @@ import Day from "./components/Day";
 function App() {
   return (
     <div className="App">
-      <Day />
+      <div className="container">
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <div class="p-2 bd-highlight">
+            <Day day="LUNES" />
+          </div>
+          <div class="p-2 bd-highlight">
+            <Day day="MARTES" />
+          </div>
+          <div class="p-2 bd-highlight">
+            <Day day="MIERCOLES" />
+          </div>
+          <div class="p-2 bd-highlight">
+            <Day day="JUEVES" />
+          </div>
+          <div class="p-2 bd-highlight">
+            <Day day="VIERNES" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

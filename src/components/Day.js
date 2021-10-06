@@ -1,16 +1,16 @@
 import Button from "./Button";
 import ButtonExtra from "./ButtonExtra";
 
-function Day() {
+function Day({ day }) {
   const buttonAction = () => {
     alert("Bien capo, sabes leer... y usar un mouse");
   };
 
   return (
-    <div class="card" style={{ width: 17 + "em" }}>
+    <div class="card" style={({ width: 17 + "em" }, { margin: 4 + "px" })}>
       <div class="card-header bg-dark">
         <h5 class="card-title" style={{ color: "white" }}>
-          LUNES
+          {day}
         </h5>
       </div>
       <ul class="list-group list-group-flush">
