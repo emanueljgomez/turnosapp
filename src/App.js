@@ -1,14 +1,10 @@
 import "./App.css";
-import Button from "./components/Button";
+import Day from "./components/Day";
 
 function App() {
-  const buttonAction = () => {
-    alert("Bien capo, sabes leer... y usar un mouse");
-  };
-
   return (
     <div className="App">
-      <Button handleClick={buttonAction} />
+      <Day />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-function Button({ handleClick }) {
+function ButtonExtra({ handleClick }) {
   return (
     <button
       type="button"
@@ -6,9 +6,9 @@ function Button({ handleClick }) {
       style={{ margin: 4 + "px" }}
       onClick={() => handleClick()}
     >
-      Tomar Turno
+      Horas Extra
     </button>
   );
 }
 
-export default Button;
+export default ButtonExtra;
