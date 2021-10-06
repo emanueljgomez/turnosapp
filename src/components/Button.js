@@ -2,7 +2,7 @@ function Button({ handleClick }) {
   return (
     <button
       type="button"
-      class="btn btn-primary"
+      className="btn btn-primary"
       style={{ margin: 4 + "px" }}
       onClick={() => handleClick()}
     >
